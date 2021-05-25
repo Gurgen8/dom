@@ -1,0 +1,54 @@
+.link{
+    font-size:40px
+}
+
+.search__box,.user__box{
+    width: 80%;
+    margin:20px auto;
+    border : 2px solid black;
+    padding:10px;
+     text-align: center;
+    
+}
+
+.user__box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search__text{
+    width: 80%;
+}
+
+.search__button{
+    width: 100px;
+}
+
+.user__item{
+    border:2px solid black
+}
+
+.filteres{
+    background-color: aqua;
+    width: 20%;
+    text-align: center;
+    display: grid;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: none;
+}
+
+
+.links{
+    border:2px solid black;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:40px;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
